@@ -9,5 +9,5 @@ public class SpawnPreferences : ScriptableObject
     public float MaxSpeed;
     public float MinPoints;
     public float MaxPoints;
-    public int SpawnAmount;
+    public float SpawnAmount;
 }
