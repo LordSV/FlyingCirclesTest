@@ -9,8 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eaad403248a500f4d8d4fe8c686f6313, type: 3}
-  m_Name: FlyingSpherePreferences
+  m_Script: {fileID: 11500000, guid: 9c4e6cbc65d1b8540b15206d5d55b107, type: 3}
+  m_Name: SpawnPreferences
   m_EditorClassIdentifier: 
-  SpherePrefab: {fileID: 8534785470543100294, guid: 4189e603c6e43bb4686d446a29de8ff5, type: 3}
-  PoolSize: 16
+  MinSize: 0.6
+  MaxSize: 1.6
+  MixSpeed: 1
+  MaxSpeed: 2
+  MinPoints: 0.5
+  MaxPoints: 3
+  SpawnAmount: 3
