@@ -5,7 +5,7 @@ public class SpawnPreferences : ScriptableObject
 {
     public float MinSize;
     public float MaxSize;
-    public float MixSpeed;
+    public float MinSpeed;
     public float MaxSpeed;
     public float MinPoints;
     public float MaxPoints;
