@@ -11,14 +11,14 @@ namespace Infrastructure
         public override void InstallBindings()
         {
             BindGameStateMachine();
-            BindClickDetection();
+            BindClickDetectionService();
         }
 
         private void BindGameStateMachine()
         {
             Container.BindInterfacesAndSelfTo<GameLoopStateMachine>().AsSingle();
         }
-        private void BindClickDetection()
+        private void BindClickDetectionService()
         {
             Container.BindInterfacesAndSelfTo<ClickDetectionService>().AsSingle();
         }

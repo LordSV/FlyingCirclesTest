@@ -4,7 +4,7 @@ namespace Infrastructure.AssetManagement
     {
         public const string FlyingSpherePreferences = "Preferences/FlyingSpherePreferences";
         public const string LevelPreferences = "Preferences/LevelPreferences";
-        public const string SpawnerPreferences = "Preferences/SpawnerPreferences";
+        public const string SpawnPreferences = "Preferences/SpawnPreferences";
         public const string TapToStart = "UI/TapToStartPanel";
         public const string LevelTimer = "UI/LevelTimerPanel";
         public const string ScoreCounter = "UI/ScoreCounterPanel";

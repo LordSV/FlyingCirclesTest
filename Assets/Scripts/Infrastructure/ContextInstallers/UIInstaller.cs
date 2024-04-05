@@ -5,34 +5,34 @@ public class UIInstaller : MonoInstaller
 {
     public override void InstallBindings()
     {
-        BindTapToStart();
-        BindLevelTimer();
-        BindScoreCounter();
-        BindFinishPanel();
+        BindTapToStartService();
+        BindLevelTimerService();
+        BindScoreCounterService();
+        BindFinishPanelService();
     } 
 
-    private void BindTapToStart()
+    private void BindTapToStartService()
     {
         Container
             .BindInterfacesAndSelfTo<TapToStartService>()
             .FromComponentInNewPrefabResource(AssetPath.TapToStart)
             .AsSingle();
     }
-    private void BindLevelTimer()
+    private void BindLevelTimerService()
     {
         Container
             .BindInterfacesAndSelfTo<CounterTimerService>()
             .FromComponentInNewPrefabResource(AssetPath.LevelTimer)
             .AsSingle();
     }
-    private void BindScoreCounter()
+    private void BindScoreCounterService()
     {
         Container
             .BindInterfacesAndSelfTo<ScoreCounterService>()
             .FromComponentInNewPrefabResource(AssetPath.ScoreCounter)
             .AsSingle();
     }
-    private void BindFinishPanel()
+    private void BindFinishPanelService()
     {
         Container
             .BindInterfacesAndSelfTo<FinishPanelService>()
