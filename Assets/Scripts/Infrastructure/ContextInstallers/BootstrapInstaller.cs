@@ -10,7 +10,17 @@ namespace Infrastructure
     {
         public override void InstallBindings()
         {
+            BindGameStateMachine();
+            BindClickDetection();
+        }
+
+        private void BindGameStateMachine()
+        {
             Container.BindInterfacesAndSelfTo<GameLoopStateMachine>().AsSingle();
+        }
+        private void BindClickDetection()
+        {
+            Container.BindInterfacesAndSelfTo<ClickDetectionService>().AsSingle();
         }
     }
 }
