@@ -19,6 +19,11 @@ public class FinishPanelService : MonoBehaviour
         _gameLoopStateMachine = gameLoopStateMachine;
     }
 
+    private void Awake()
+    {
+        _canvas.enabled = false;
+    }
+
     public void Show()
     {
         _canvas.enabled = true;

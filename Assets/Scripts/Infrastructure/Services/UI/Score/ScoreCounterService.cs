@@ -23,7 +23,7 @@ public class ScoreCounterService : MonoBehaviour, IResettable
                 _counterText.text = score.ToString();
                 DOTween.Kill(_counterText);
                 _counterText.transform.localScale = Vector3.one;
-                _counterText.transform.DOPunchScale(Vector3.one * _scaleFactor, _scaleDuration);
+                _counterText.transform.DOScale(Vector3.one * _scaleFactor, _scaleDuration);
 
             })
             .AddTo(this);

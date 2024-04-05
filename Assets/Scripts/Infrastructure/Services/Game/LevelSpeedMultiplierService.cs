@@ -18,7 +18,7 @@ public class LevelSpeedMultiplierService : IResettable, ILevelSpeed
     public void Start()
     {
         Observable
-            .Timer(TimeSpan.FromSeconds(_levelPreferences.TimerSpeed))
+            .Timer(TimeSpan.FromSeconds(_levelPreferences.SpeedUpDelay))
             .Repeat()
             .Subscribe(speed => LevelSpeed *= _levelPreferences.SpeedIncreaser)
             .AddTo(_disposables);

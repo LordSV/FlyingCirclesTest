@@ -23,6 +23,7 @@ public class CounterTimerService : MonoBehaviour, IResettable
     private void Awake()
     {
         _canvas.enabled = false;
+        MakeSubscription();
     }
 
     public void StartTimer()

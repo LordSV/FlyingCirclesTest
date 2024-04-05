@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: FlyingSpherePreferences
   m_EditorClassIdentifier: 
   SpherePrefab: {fileID: 8534785470543100294, guid: 4189e603c6e43bb4686d446a29de8ff5, type: 3}
-  PoolSize: 16
+  PoolSize: 32

@@ -22,6 +22,7 @@ namespace Infrastructure.StateMachine
             _states = new Dictionary<Type, IState>
             {
                 { typeof(LoadingState), new LoadingState(this) },
+                { typeof(TapToStartState), new TapToStartState(this) },
                 { typeof(GameState), new GameState(this) },
                 { typeof(RestartState), new RestartState(this) },
                 { typeof(FinishState), new FinishState(this) }

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MinSize: 0.6
   MaxSize: 1.6
-  MixSpeed: 1
+  MinSpeed: 1
   MaxSpeed: 2
   MinPoints: 0.5
   MaxPoints: 3

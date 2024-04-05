@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RoundDuration: 30
   SpeedIncreaser: 1.2
-  TimerSpeed: 1
+  SpeedUpDelay: 5
