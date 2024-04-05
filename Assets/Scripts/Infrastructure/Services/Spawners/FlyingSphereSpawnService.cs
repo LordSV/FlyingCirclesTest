@@ -24,7 +24,7 @@ public class FlyingSphereSpawnService
             .AddTo(_disposables);
     }
 
-    private void SpawnStop()
+    public void SpawnStop()
     {
         _disposables.Clear();
     }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4298800118091847210}
   - component: {fileID: 1802810782240918757}
   - component: {fileID: 2907449639352300013}
+  - component: {fileID: 8617660567443815700}
   m_Layer: 5
   m_Name: ScoreCounterPanel
   m_TagString: Untagged
@@ -102,6 +103,22 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 55
+--- !u!114 &8617660567443815700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3914842514179670014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e08d493bbcab66c4d971cde738208396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _counterText: {fileID: 4464182858223702170}
+  _scaleFactor: 1.2
+  _scaleDuration: 0.2
+  _canvas: {fileID: 4298800118091847210}
 --- !u!1 &6098876942962175953
 GameObject:
   m_ObjectHideFlags: 0

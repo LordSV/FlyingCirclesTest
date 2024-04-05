@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5888501708136332888}
   - component: {fileID: 733336765695787063}
   - component: {fileID: 4352742601632295038}
+  - component: {fileID: 7374242063206209227}
   m_Layer: 5
   m_Name: FinishPanel
   m_TagString: Untagged
@@ -104,6 +105,20 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 55
+--- !u!114 &7374242063206209227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000951733931837410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e8b7b8b682a414288c6f89f341358d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scoreText: {fileID: 6295130135418134244}
+  _canvas: {fileID: 5888501708136332888}
 --- !u!1 &3368428587408912827
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,7 +239,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7454300542390818829}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7374242063206209227}
+        m_TargetAssemblyTypeName: FinishPanelService, Assembly-CSharp
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4707738766377313248
 GameObject:
   m_ObjectHideFlags: 0

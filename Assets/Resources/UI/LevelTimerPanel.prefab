@@ -146,8 +146,9 @@ GameObject:
   - component: {fileID: 8924481855583039347}
   - component: {fileID: 1324248510566372798}
   - component: {fileID: 4094153096282764114}
+  - component: {fileID: 3859620869793792894}
   m_Layer: 5
-  m_Name: GameTimerPanel
+  m_Name: LevelTimerPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -236,3 +237,17 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 55
+--- !u!114 &3859620869793792894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3817914560351419803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d452a733e834224f83ddb9e38119edb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 8724090227081170062}
+  _canvas: {fileID: 8924481855583039347}
