@@ -11,7 +11,7 @@ public class OutScreenRemoveService : ITickable
     {
         _spheresHolder = spheresHolder;
         float orthographicSize = Camera.main.orthographicSize;
-        _upBorder = orthographicSize;
+        _upBorder = orthographicSize * 2f;
     }
 
     public void Tick()
